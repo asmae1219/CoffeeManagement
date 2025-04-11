@@ -48,11 +48,11 @@ CoffeeManagement/
 
   ├── services/ # Logique métier
 
-  ├── factory/ # Génération automatique de types de café
+  ├── database/ 
 
   ├── utils/ # Fonctions utilitaires
 
-  └── main.ts # Point d'entrée principal
+  └── index.ts # Point d'entrée principal
 
 
 
@@ -137,11 +137,11 @@ src/
 
   │        └── custom.d.ts
   
-  ├── utils/          # Helpers TypeScript
+  ├── sevices/          # Helpers TypeScript
   
   │        └── helpers.ts
   
-  └── main.ts         # Point d'entrée principal
+  └── index.ts         # Point d'entrée principal
   
 🔧 Résolution de problèmes TypeScript
 Si vous rencontrez des erreurs de compilation :
