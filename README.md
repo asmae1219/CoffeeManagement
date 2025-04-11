@@ -50,7 +50,7 @@ CoffeeManagement/
 
   ├── database/ 
 
-  ├── utils/ # Fonctions utilitaires
+  ├── services/ # Fonctions utilitaires
 
   └── index.ts # Point d'entrée principal
 
