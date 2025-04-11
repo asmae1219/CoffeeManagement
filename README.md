@@ -40,19 +40,17 @@ CoffeeManagement est une application de gestion de cafés permettant de :
 ## 🏗️ Architecture du projet
 CoffeeManagement/
 
-  │
+│
 
-  ├── models/ # Modèles de données (Coffee, Customization)
+├── models/ # Modèles de données (Coffee, Customization)
 
-  ├── dao/ # Accès aux données (IndexedDB)
+├── dao/ # Accès aux données (IndexedDB)
 
-  ├── services/ # Logique métier
+├── services/ # Logique métier
 
-  ├── database/ 
+├── database/ # Génération automatique de types de café
 
-  ├── services/ # Fonctions utilitaires
-
-  └── index.ts # Point d'entrée principal
+└── index.ts # Point d'entrée principal
 
 
 
