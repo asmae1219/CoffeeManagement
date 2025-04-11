@@ -1,0 +1,15 @@
+{
+  "name": "coffee-shop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fake-indexeddb": "^6.0.0",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
