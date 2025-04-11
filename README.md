@@ -39,13 +39,20 @@ CoffeeManagement est une application de gestion de cafés permettant de :
 
 ## 🏗️ Architecture du projet
 CoffeeManagement/
-│
-├── models/ # Modèles de données (Coffee, Customization)
-├── dao/ # Accès aux données (IndexedDB)
-├── services/ # Logique métier
-├── factory/ # Génération automatique de types de café
-├── utils/ # Fonctions utilitaires
-└── main.ts # Point d'entrée principal
+
+  │
+
+  ├── models/ # Modèles de données (Coffee, Customization)
+
+  ├── dao/ # Accès aux données (IndexedDB)
+
+  ├── services/ # Logique métier
+
+  ├── factory/ # Génération automatique de types de café
+
+  ├── utils/ # Fonctions utilitaires
+
+  └── main.ts # Point d'entrée principal
 
 
 
@@ -121,13 +128,21 @@ npm run build
 🛠 Structure TypeScript
 
 src/
-├── models/         # Définitions d'interfaces et classes
-│   └── Coffee.ts
-├── types/          # Fichiers de déclaration
-│   └── custom.d.ts
-├── utils/          # Helpers TypeScript
-│   └── helpers.ts
-└── main.ts         # Point d'entrée principal
+
+  ├── models/         # Définitions d'interfaces et classes
+  
+  │        └── Coffee.ts
+  
+  ├── types/          # Fichiers de déclaration
+
+  │        └── custom.d.ts
+  
+  ├── utils/          # Helpers TypeScript
+  
+  │        └── helpers.ts
+  
+  └── main.ts         # Point d'entrée principal
+  
 🔧 Résolution de problèmes TypeScript
 Si vous rencontrez des erreurs de compilation :
 
